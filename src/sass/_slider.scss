@@ -1,0 +1,49 @@
+.wrapper-tittle {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: $cards-text;
+}
+
+.image-slider {
+    padding: 30px 0 70px 0;
+
+}
+
+.image-slider .swiper-button-next::after,
+.image-slider .swiper-button-prev::after {
+    color: orange;
+    font-style: 80px;
+}
+
+.image-slider .swiper-scrollbar-drag {
+    cursor: pointer;
+    background-color: $header-button-color;
+}
+
+.image-slider__image {
+    text-align: center;
+}
+
+.image-slider__name {
+
+    font-weight: 400;
+    font-style: 14px;
+    line-height: 1.17;
+    color: $header-button-color;
+    text-align: center;
+}
+
+.image-slider__position {
+    margin: 10px;
+    text-align: center;
+    color: $cards-text;
+}
+
+.image-slider__image img {
+    max-width: 100%;
+}
+
+.image-slider .swiper-slide {
+    width: auto;
+}
